@@ -1,0 +1,121 @@
+body {
+
+    font-family: 'Work Sans';
+    background: #FFFFFF;
+
+}
+
+
+/*********************** Navigation style **********************/
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 228px;
+}
+
+.nav-title {
+
+    font-weight: 700;
+    font-size: 45px;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+
+    list-style: none;
+    margin: 20px;
+}
+
+/**************************** header *********************************/
+
+.container {
+
+    text-align: center;
+}
+
+.text {
+    text-align: center;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+
+
+
+}
+
+button.btn {
+    position: absolute;
+    width: 180px;
+    height: 64px;
+    left: 870px;
+    top: 463px;
+}
+
+.center {
+    display: block;
+    position: absolute;
+    width: 1440px;
+    height: 700px;
+    left: 240px;
+    top: 577px;
+}
+
+/***************************Group picture **********************/
+
+.group-picture {
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 26px;
+
+    position: absolute;
+    width: 342px;
+    height: 342px;
+    left: 301px;
+    top: 1407px;
+
+
+}
+
+/********************************* Feature section  ****************************/
+
+.group-feature {
+
+    display: flex;
+    position: absolute;
+
+}
+
+
+.feature {
+    font-size: 20px;
+    padding-left: 20px;
+
+
+}
+
+.feature-enjoy {
+
+    position: absolute;
+    text-align:left;
+    width: 1443px;
+    height:2000px;
+    left: 240px;
+    top: 2999px;
+    display: flex;
+
+}
+.img.archi-pic{
+    width:700px;
+    height: 982px;
+}
+
+.facts{
+width: 258px;
+height: 53px;
+left: 240px;
+top: 3434px;
+}
